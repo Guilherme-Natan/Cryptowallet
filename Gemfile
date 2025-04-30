@@ -61,3 +61,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# For the "Bust a gem" plugin
+gem "ripper-tags"

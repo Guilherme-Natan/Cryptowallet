@@ -21,7 +21,9 @@
 		  "extensions": [
 			"kaiwood.endwise",
 			"streetsidesoftware.code-spell-checker",
-			"Shopify.ruby-extensions-pack"
+			"Shopify.ruby-extensions-pack",
+			"tavo.rails-schema",
+			"gurgeous.bust-a-gem"
 		],
 		  }
 		},
