@@ -1,0 +1,19 @@
+<h1>Nome</h1>
+<p>Digite o seu nome:</p>
+
+<form action="/name/index" method="GET">
+  <label for="name">Nome:</label>
+  <input type="text" id="name" name="name">
+  <label for="age">Idade:</label>
+  <input type="text" id="age" name="age">
+  <input type="submit" value="Submit">
+</form>
+
+
+<p>
+    <% if @name && @age %>
+        Seu nome é <%= @name %>, e sua idade é <%= @age %> anos
+    <% else %>
+        Seu nome e/ou idade não foi informado(s)!  
+    <% end %>
+</p>

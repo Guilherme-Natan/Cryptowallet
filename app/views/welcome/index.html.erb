@@ -1,4 +1,4 @@
-<h1>Seja Bem Vindo!</h1>
+<h2>Seja Bem Vindo!</h2>
 
 <% nome = "Guilherme Natan"%>
 <p><%= nome %></p>
@@ -6,4 +6,7 @@
 <p>Date de hoje: <%= Date.today%></p>
 <ul>
     <li><%= link_to "Cadastro de moedas", coins_path %></li>
+    <li><%= link_to "Printar nomes", name_index_path %></li>
+    <li><%= link_to "Rotas Rails", "rails/info/routes" %></li>
+    <li>Variável teste: <%= @var_test %></li>
 </ul>
