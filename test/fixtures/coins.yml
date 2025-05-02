@@ -3,9 +3,9 @@
 one:
   description: MyString
   acronym: MyString
-  url_image: MyString
+  url_image: https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/640px-Wikipedia-logo-v2.svg.png
 
 two:
   description: MyString
   acronym: MyString
-  url_image: MyString
+  url_image: https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/640px-Wikipedia-logo-v2.svg.png
